@@ -6,6 +6,17 @@ This project explores the potential of fine-tuning large language models (LLMs) 
 
 ## Project Overview
 
+Key Points:
+
+1. Utilized the 2018 Amazon Review Dataset to develop a personalized product recommendation system.
+2. Implemented and compared the performance of two large language models: Mistral-7B and TinyLlama.
+3. Applied advanced techniques like LoRA (Low-Rank Adaptation) and QLoRA (Quantized LoRA) for efficient model fine-tuning.
+4. Developed a novel prompting strategy to transform user interaction history into natural language inputs for the models.
+5. Achieved over 98% accuracy in predicting users' next product purchases using the fine-tuned TinyLlama model.
+6. Demonstrated that smaller, specialized models can outperform larger models for specific tasks when properly fine-tuned.
+7. Conducted error analysis to identify patterns in incorrect predictions and potential areas for improvement.
+8. Explored the balance between model size, computational efficiency, and prediction accuracy in recommendation systems.
+
 The project focuses on demonstrating the efficiency of fine-tuning LLMs for recommendation tasks using a diverse and expansive dataset. The implementation includes the following phases:
 
 1. **Data Extraction and Preprocessing**:
